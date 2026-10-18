@@ -1,0 +1,100 @@
+Job ID: 22005
+Host: gpu05.slurm.cpe.kmutt.ac.th
+Started: Mon Oct 19 01:10:06 AM +07 2026
+Python: /storage/slurm/home/68070701622@cpe.kmutt.ac.th/deep_learning/env_dl/bin/python
+Device: cuda
+GPU: NVIDIA GeForce RTX 3080
+
+[Task 1] The Wonderful Visit by H. G. Wells
+Train / validation / test characters: 173784 21723 21723
+Vocabulary size: 79
+
+[Task 2] LanguageModel(
+  (embedding): Embedding(79, 32)
+  (gru): GRU(32, 128, batch_first=True)
+  (output): Linear(in_features=128, out_features=79, bias=True)
+)
+Seed=1234, epochs=40, batch=64, sequence=100
+Adam lr=0.002, gradient clip=1.0
+
+[Task 3] Training
+Epoch 01: train=3.4118, validation=2.9462
+Epoch 02: train=2.7884, validation=2.6092
+Epoch 03: train=2.5197, validation=2.4203
+Epoch 04: train=2.3682, validation=2.2949
+Epoch 05: train=2.2581, validation=2.1964
+Epoch 06: train=2.1657, validation=2.1142
+Epoch 07: train=2.0856, validation=2.0423
+Epoch 08: train=2.0171, validation=1.9825
+Epoch 09: train=1.9593, validation=1.9342
+Epoch 10: train=1.9080, validation=1.8934
+Epoch 11: train=1.8630, validation=1.8574
+Epoch 12: train=1.8242, validation=1.8286
+Epoch 13: train=1.7889, validation=1.8010
+Epoch 14: train=1.7585, validation=1.7775
+Epoch 15: train=1.7302, validation=1.7575
+Epoch 16: train=1.7058, validation=1.7400
+Epoch 17: train=1.6835, validation=1.7218
+Epoch 18: train=1.6617, validation=1.7062
+Epoch 19: train=1.6423, validation=1.6985
+Epoch 20: train=1.6245, validation=1.6854
+Epoch 21: train=1.6084, validation=1.6747
+Epoch 22: train=1.5910, validation=1.6650
+Epoch 23: train=1.5769, validation=1.6606
+Epoch 24: train=1.5637, validation=1.6502
+Epoch 25: train=1.5500, validation=1.6421
+Epoch 26: train=1.5398, validation=1.6364
+Epoch 27: train=1.5273, validation=1.6309
+Epoch 28: train=1.5161, validation=1.6258
+Epoch 29: train=1.5075, validation=1.6219
+Epoch 30: train=1.4961, validation=1.6138
+Epoch 31: train=1.4866, validation=1.6131
+Epoch 32: train=1.4777, validation=1.6096
+Epoch 33: train=1.4690, validation=1.6084
+Epoch 34: train=1.4617, validation=1.6046
+Epoch 35: train=1.4542, validation=1.6029
+Epoch 36: train=1.4465, validation=1.5985
+Epoch 37: train=1.4392, validation=1.5984
+Epoch 38: train=1.4323, validation=1.5997
+Epoch 39: train=1.4258, validation=1.5994
+Epoch 40: train=1.4197, validation=1.5966
+
+[Task 4] Best epoch: 40
+Test loss: 1.7060 nats per character
+Character-level perplexity: 5.5068
+
+[Task 5] Generated text (temperature=0.8)
+
+Prompt: 'The Vicar '
+The Vicar now. But I am was in the face. "I know. _Why dy the Hanger! Why is a man playing-----"
+
+"Ah!" said the Angel creatures a begint fired upon the man into his hand dust, and remarks afternoon....."
+
+"Perhaving alter," said the Vicar colfed. It's, people. And you pick by this world
+by the are not in the who man. You carduls, purcession playing to his eyes world in his head.
+
+
+
+TH I Hilyer I thinking h
+
+Prompt: 'The Angel '
+The Angel from the my indeed it withing of the ment. It's the humplicate charered musick of a caner the
+servant as the trion. The would be speak the Vicar's and goes and the came of a motiensise was a painst the composed to the Angel. "So morrom the motished humself, child for a
+curious I was siopet without to dam, a farble yell see. I've of yours. I said, "I think, and they can a line!"
+
+"It was at any edd
+
+Prompt: 'The village '
+The village any Quirels strange beauty. If 'ave
+mading up. "I don't how you are," said the worsed to he with to do beone like here. "I muse."
+
+"Phe imson' the were you, Mus in them like his eyes there."
+
+"There think?"
+
+"Where offer!" said the Vicared
+all face, of Siddermorton for a through
+the took his strange Hours, and for the sudent a still me and of their upver serveris world, "Mr Angel?" said the drame 
+
+Finished.
+Finished: Mon Oct 19 01:10:42 AM +07 2026
